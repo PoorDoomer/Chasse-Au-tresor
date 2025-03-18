@@ -93,18 +93,15 @@ class ROIAnalyzerApp:
         
         # Initialize managers
         self.target_manager = TargetImageManager(self.root)
+        self.json_manager = JSONManager(self.root)
         self.roi_manager = None
         self.template_manager = None
-        self.json_manager = None
         
         # Set up the UI
         self.setup_ui()
         
         # Apply modern styling
         self.apply_styling()
-        
-        # Initialize JSON Manager after ROI manager
-        self.json_manager = JSONManager(self.root)
         
         # No need to initialize API client here - will create on demand
         self.api_client = None
