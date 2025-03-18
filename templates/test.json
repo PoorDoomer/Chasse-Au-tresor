@@ -1,0 +1,19 @@
+{
+    "name": "test",
+    "image_path": null,
+    "rois": [
+        {
+            "name": "ROI 1",
+            "coordinates": [
+                1,
+                82,
+                47,
+                111
+            ],
+            "roi_num": 1
+        }
+    ],
+    "match_threshold": 0.7,
+    "match_method": 5,
+    "template_regions": []
+}

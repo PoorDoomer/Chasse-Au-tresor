@@ -1,0 +1,17 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+
+# Log files
+*.log
+logs/
+monitor_output/
+
+# Cursor files
+.cursorrules
+scratchpad.md
